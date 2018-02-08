@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/itemListView"
+        android:id="@+id/result_list"
         android:layout_width="591dp"
         android:layout_height="758dp"
         android:layout_marginEnd="8dp"
@@ -28,13 +28,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchItemID">
+        app:layout_constraintTop_toBottomOf="@+id/search_edit_text">
 
     </android.support.v7.widget.RecyclerView>
 
     <EditText
-        android:id="@+id/searchItemID"
-        android:layout_width="529dp"
+        android:id="@+id/search_edit_text"
+        android:layout_width="501dp"
         android:layout_height="42dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
@@ -46,20 +46,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_toolbar" />
-
-    <ImageButton
-        android:id="@+id/searchButton"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/itemListView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/searchItemID"
-        app:layout_constraintTop_toBottomOf="@+id/reg_toolbar"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_search_black_24dp" />
 
 
 </android.support.constraint.ConstraintLayout>

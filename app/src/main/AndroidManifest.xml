@@ -21,7 +21,6 @@
         <activity android:name=".StartActivity" />
         <activity
             android:name=".RegisterActivity"
-
             android:parentActivityName=".StartActivity" />
         <activity
             android:name=".LoginActivity"
@@ -50,11 +49,16 @@
         <activity
             android:name=".AllSalesActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".CustomLayout"
-            android:parentActivityName=".MakeBillActivity"/>
-        <activity android:name=".PrinterService"
+        <activity
+            android:name=".CustomLayout"
+            android:parentActivityName=".MakeBillActivity" />
+        <activity
+            android:name=".PrinterService"
             android:launchMode="singleTask"
-            android:parentActivityName=".CustomLayout"/>
+            android:parentActivityName=".CustomLayout" />
+        <activity android:name=".Update"
+           
+            android:parentActivityName=".StartActivity"></activity>
     </application>
 
 </manifest>
